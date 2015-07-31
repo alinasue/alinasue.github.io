@@ -1,0 +1,149 @@
+/* CSS for www.alinasue.com by Alina Larson, July 2015 */
+
+
+
+
+/* setting the stage for background, may add image later */
+body {
+    background: white url("???.JPG") repeat center;
+    'topmargin = 0;'
+    color: black;
+    'alink="red" vlink="blue" link="green"   '
+}
+
+
+
+
+/* header 1 properties */
+h1 {
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* header 2 properties */
+h2 {
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* other text properties */
+p {
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+/* other text properties, modified for CV */
+p.vita {
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: #6666FF;
+    text-decoration: none;
+    background-color: none;
+}
+
+/* visited link */
+a:visited {
+    color: #0099FF;
+    text-decoration: none;
+    background-color: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #CC0099;
+    text-decoration: underline;
+    background-color: #99CCFF;
+}
+
+/* selected link */
+a:active {
+    color: #003399;
+    text-decoration: underline;
+    background-color: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* formatting for tables */
+table, th, td {
+    'border-collapse: collapse;' /*this will make borders invisible if they aren't...*/
+    border: 1px solid black;
+}
+
+
+
+
+/* formatting for the navigation bar */
+'ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}'     /* not a fan of how this looks, but may come back to it later */
+
+
+
+
+
+
+/* formatting for images ... not currently using */
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;  'border-collapse: collapse;'
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
