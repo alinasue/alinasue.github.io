@@ -9,7 +9,7 @@ body {
     'topmargin = 0;'
     color: black;
     'alink="red" vlink="blue" link="green"   '
-    font-family: Garamond, "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 
 }
 
@@ -18,7 +18,7 @@ body {
 
 /* header 1 properties */
 h1 {
-    font-family: Garamond, "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     color: black;
     font-size: 25px;
     text-align: center;
@@ -26,7 +26,7 @@ h1 {
 
 /* header 2 properties */
 h2 {
-    font-family: Garamond, "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     color: black;
     font-size: 20px;
     text-align: center;
@@ -34,14 +34,14 @@ h2 {
 
 /* other text properties */
 p {
-    font-family: Garamond, "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     color: black;
     font-size: 15px;
     text-align: center;
 }
 /* other text properties, modified for CV */
 p.vita {
-    font-family: Garamond, "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     color: black;
     font-size: 15px;
     text-align: justify;
@@ -81,22 +81,6 @@ a:active {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* formatting for tables */
 table, th, td {
     'border-collapse: collapse;' /*this will make borders invisible if they aren't...*/
@@ -115,8 +99,6 @@ table, th, td {
 li {
     display: inline;
 }'     /* not a fan of how this looks, but may come back to it later */
-
-
 
 
 
